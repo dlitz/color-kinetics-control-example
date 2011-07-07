@@ -1,0 +1,45 @@
+= Control a Philips Color Kinetics iColor Tile MX board using Python!
+
+The iColor Tile MX is a 12-by-12 array of RGB LEDs, controlled by some software
+that sends UDP packets to the board over a local Ethernet connection.
+
+This is an example program showing how to control that board using Python.
+
+The LEDs are arranged into two 6x12 banks of LEDs.  We send a separate packet
+to update each bank.
+
+More information about the iColor Tile MX can be found on the Philips website:
+
+    http://www.colorkinetics.com/ls/rgb/tilemx/
+
+Visit the authors' websites:
+
+- http://www.dlitz.net/
+- http://www.clothbot.org/wiki/
+
+Photo: http://imgur.com/Td14Y
+
+Video: http://www.youtube.com/watch?v=kGTqfi-xUoc
+
+Have fun!
+
+= Authorship & Copyright
+
+Originally by Dwayne Litzenberger and Andrew Plumb
+
+The contents of this file are dedicated to the public domain.  To
+the extent that dedication to the public domain is not available,
+everyone is granted a worldwide, perpetual, royalty-free,
+non-exclusive license to exercise all rights associated with the
+contents of this file for any purpose whatsoever.
+No rights are reserved.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
